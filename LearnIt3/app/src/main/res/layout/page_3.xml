@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:paddingTop="70dp"
+            android:gravity="center"
+            android:textSize="21sp"
+            android:id="@+id/text_31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gamification"
+            android:textColor="#000000" />
+
+        <TextView
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:layout_below="@+id/text_31"
+            android:id="@+id/text_32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_2"
+            android:textColor="#184244" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="450dp"
+            android:id="@+id/img_3"
+            android:layout_below="@+id/text_32"
+            android:paddingBottom="7dp"
+            android:paddingTop="40dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:src="@drawable/img_3"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

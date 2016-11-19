@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    tools:context="com.android.learnit.ViewSets">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="Create a new study set by tapping the + button or Get started with our predifined sets."
+
+        android:textColor="#003554"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:id="@+id/inv"/>
+
+    <ListView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:id="@+id/setlist">
+    </ListView>
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/stars"
+    android:id="@+id/loginLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:padding="8dp"
+        tools:context="com.android.learnit.Register"
+        android:orientation="vertical"
+        android:background="#ffffffff"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="75dp"
+        android:alpha="0.75"
+        android:id="@+id/linearReg"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:textColor="#5f5e5e"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_fname"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:textColorHint="#febababa"
+                android:id="@+id/fname"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_lname"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:textColorHint="#febababa"
+                android:id="@+id/lname"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_uname"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="250dp"
+                android:textColorHint="#febababa"
+
+                android:layout_height="wrap_content"
+                android:hint="User Name"
+                android:id="@+id/new_user_name"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="250dp"
+                android:textColorHint="#febababa"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:id="@+id/email"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_pass"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="250dp"
+                android:textColorHint="#febababa"
+
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:id="@+id/new_user_pass"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:elevation="4dp"
+            android:textColor="#ffffffff"
+            android:text="Register"
+            android:background="#ff5722"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:onClick="userReg"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom">#ff2a31</color>
+    <color name="custom2">#277634</color>
+    <color name="color7">#e91e63</color>
+    <color name="color5">#303F9F</color>
+    <color name="color6">#3f51b5</color>
+    <color name="actionbutton">#aed581</color>
+    <color name="background">#673AB7</color>
+    <color name= "textcolor">#515050</color>
+
+
+    <color name="color1">#FFFFFF</color>
+    <color name="color2">#bbdefb</color>
+    <color name="color3">#D1C4E9</color>
+    <color name="color4">#E7E9D1</color>
+    <color name="colorlast">#fdc2b0</color>
+
+
+    <color name="vpcolor1">#FFFFFF</color>
+    <color name="vpcolor2">#7ec8fb</color>
+    <color name="vpcolor3">#ddc59ce9</color>
+    <color name="vpcolor4">#e9e776</color>
+    <color name="prevvpcolor4">#e5e998</color>
+    <color name="vpcolor5">#e98572</color>
+
+
+    <color name="cardBackground">#f0f6f6</color>
+    <color name="cardSelectBackground">#d7db6204</color>
+    <color name="answerCorrect">#66bb6a</color>
+    <color name="answerIncorrect">#ef5350</color>
+
+    <color name="quizBackground">#003554</color>
+
+    <color name= "FlashCardColor1">#ffd54f</color>
+    <color name= "FlashCardColor2">#00897b</color>
+    <color name= "FlashCardColor3">#3f51b5</color>
+    <color name= "FlashCardColor4">#ff5722</color>
+    <color name= "FlashCardColor5">#03a9f4</color>
+    <color name= "FlashCardColor6">#4caf50</color>
+    <color name= "FlashCardColor7">#673ab7</color>
+    <color name= "FlashCardColor8">#fdd835</color>
+    <color name= "FlashCardColor9">#795548</color>
+    <color name= "FlashCardColor10">#bdbdbd</color>
+
+    <color name= "textcolor1">#A07100</color>
+    <color name= "textcolor2">#bd915b</color>
+    <color name= "textcolor3">#7b7bbd</color>
+    <color name= "textcolor4">#bd695d</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <TextView
+        android:layout_width="0dp"
+        android:textColor="#003554"
+        android:padding="15dp"
+        android:id="@+id/word2"
+        android:layout_height="80dp"
+        android:layout_weight="2"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textColor="#003554"
+        android:padding="15dp"
+        android:layout_height="80dp"
+        android:id="@+id/def2"
+        android:layout_weight="2"/>
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/speaker"
+        android:src="@drawable/ic_volume_up_black_24dp"
+        android:id="@+id/speakbut"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"/>
+
+</LinearLayout>
